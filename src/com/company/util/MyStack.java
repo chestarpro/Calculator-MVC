@@ -1,8 +1,8 @@
-package com.company;
+package com.company.util;
 
 public class MyStack<T> {
-    private int stackSize;
-    private T[] stackArray;
+    private final int stackSize;
+    private final T[] stackArray;
     private int top;
 
     public MyStack(int size) {
